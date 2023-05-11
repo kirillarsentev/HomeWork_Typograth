@@ -57,6 +57,7 @@ namespace Typograth_Application
         public string plus_minus(string str)
         {
             str = str.Replace("+-", "±");
+            str = str.Replace("-+", "±");
             return str;
         }
 
